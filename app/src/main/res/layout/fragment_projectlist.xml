@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_border_item"
+        android:gravity="center"
+        android:text="test"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:text="Description"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/round_border"
+        android:text="test"
+        android:textColor="#000000"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:text="진행률"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <com.skydoves.progressview.ProgressView
+        android:id="@+id/progress_view"
+        app:progressView_autoAnimate="true"
+        app:progressView_colorBackground="#ffffff"
+        app:progressView_colorGradientEnd="#FF00FF"
+        app:progressView_colorGradientStart="#FFE4E1"
+        app:progressView_colorProgress="#87CEEB"
+        app:progressView_highlightAlpha="1.0"
+        app:progressView_highlightWidth="1dp"
+        app:progressView_labelColorInner="@color/white"
+        app:progressView_labelColorOuter="@color/black"
+        app:progressView_labelSize="12dp"
+        app:progressView_labelSpace="10dp"
+        app:progressView_labelText="60%"
+        app:progressView_labelTypeface="bold"
+        app:progressView_max="100"
+        app:progressView_min="15"
+        app:progressView_padding="1dp"
+        app:progressView_progress="60"
+        app:progressView_progressFromPrevious="true"
+        app:progressView_radius="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d-day"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/selBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="상세보기"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_border"
+        android:stateListAnimator="@null"/>
+
+</LinearLayout>

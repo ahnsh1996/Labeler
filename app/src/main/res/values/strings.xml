@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Labeler</string>
+    <string name="notYoloType">&lt;objID&gt; &lt;min-x&gt; &lt;min-y&gt; &lt;max-x&gt; &lt;max-y&gt;</string>
+    <string name="YoloType">&lt;objID&gt; &lt;center-x&gt; &lt;center-y&gt; &lt;width&gt; &lt;height&gt;  (Yolo)</string>
+</resources>
